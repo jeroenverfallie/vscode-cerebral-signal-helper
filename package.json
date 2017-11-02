@@ -1,0 +1,38 @@
+{
+    "name": "cerebral-signal-helper",
+    "displayName": "cerebral-signal-helper",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "jeroenverfallie",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": ["Other"],
+    "activationEvents": [
+        "onCommand:cerebral-signal-helper.executeOnCurrentFile"
+    ],
+    "main": "./src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "cerebral-signal-helper.executeOnCurrentFile",
+                "title": "Cerebral-signal-helper: Execute on current file"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.5.2",
+        "vscode": "^1.1.5",
+        "mocha": "^3.5.0",
+        "eslint": "^4.6.1",
+        "@types/node": "^7.0.0",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "cerebral-cli-generator": "1.4.0"
+    }
+}
