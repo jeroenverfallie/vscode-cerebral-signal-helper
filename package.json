@@ -35,6 +35,6 @@
         "@types/mocha": "^2.2.42"
     },
     "dependencies": {
-        "cerebral-cli-generator": "2.1.1"
+        "cerebral-cli-generator": "2.2.0"
     }
 }
