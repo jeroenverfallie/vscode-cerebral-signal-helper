@@ -7,7 +7,9 @@
     "engines": {
         "vscode": "^1.17.0"
     },
-    "categories": ["Other"],
+    "categories": [
+        "Other"
+    ],
     "activationEvents": [
         "onCommand:cerebral-signal-helper.executeOnCurrentFile"
     ],
@@ -33,6 +35,6 @@
         "@types/mocha": "^2.2.42"
     },
     "dependencies": {
-        "cerebral-cli-generator": "1.4.0"
+        "cerebral-cli-generator": "2.0.1"
     }
 }
