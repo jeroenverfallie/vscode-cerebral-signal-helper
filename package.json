@@ -7,9 +7,7 @@
     "engines": {
         "vscode": "^1.17.0"
     },
-    "categories": [
-        "Other"
-    ],
+    "categories": ["Other"],
     "activationEvents": [
         "onCommand:cerebral-signal-helper.executeOnCurrentFile"
     ],
@@ -19,6 +17,17 @@
             {
                 "command": "cerebral-signal-helper.executeOnCurrentFile",
                 "title": "Cerebral-signal-helper: Execute on current file"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                { "command": "cerebral-signal-helper.executeOnCurrentFile" }
+            ]
+        },
+        "keybindings": [
+            {
+                "command": "cerebral-signal-helper.executeOnCurrentFile",
+                "key": "ctrl+alt+s"
             }
         ]
     },
