@@ -2,12 +2,14 @@
     "name": "cerebral-signal-helper",
     "displayName": "cerebral-signal-helper",
     "description": "",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "publisher": "jeroenverfallie",
     "engines": {
         "vscode": "^1.17.0"
     },
-    "categories": ["Other"],
+    "categories": [
+        "Other"
+    ],
     "activationEvents": [
         "onCommand:cerebral-signal-helper.executeOnCurrentFile"
     ],
@@ -21,7 +23,9 @@
         ],
         "menus": {
             "editor/context": [
-                { "command": "cerebral-signal-helper.executeOnCurrentFile" }
+                {
+                    "command": "cerebral-signal-helper.executeOnCurrentFile"
+                }
             ]
         },
         "keybindings": [
