@@ -2,7 +2,7 @@
     "name": "cerebral-signal-helper",
     "displayName": "cerebral-signal-helper",
     "description": "",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "publisher": "jeroenverfallie",
     "engines": {
         "vscode": "^1.17.0"
@@ -37,7 +37,8 @@
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test"
+        "test": "node ./node_modules/vscode/bin/test",
+        "publish": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
         "typescript": "^2.5.2",
@@ -48,6 +49,6 @@
         "@types/mocha": "^2.2.42"
     },
     "dependencies": {
-        "cerebral-cli-generator": "2.3.1"
+        "cerebral-cli-generator": "3.0.0"
     }
 }
